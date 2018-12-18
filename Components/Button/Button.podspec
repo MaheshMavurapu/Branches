@@ -21,7 +21,7 @@ s.homepage = "https://github.com/MaheshMavurapu/Branches"
 
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
 s.source = { :git => "https://github.com/MaheshMavurapu/Branches.git",
-:tag => "#{s.version}" }
+:tag => "#{s.version}", :branch => "Develop" }
 
 # 7
 s.framework = "UIKit"
