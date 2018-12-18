@@ -3,8 +3,8 @@ Pod::Spec.new do |s|
 # 1
 s.platform = :ios
 s.ios.deployment_target = '12.0'
-s.name = "Button"
-s.summary = "Button lets a user select an ice cream flavor."
+s.name = "DisplayText"
+s.summary = "DisplayText lets a user select an ice cream flavor."
 s.requires_arc = true
 
 # 2
@@ -29,12 +29,13 @@ s.framework = "UIKit"
 # s.dependency 'MBProgressHUD', '~> 1.1.0'
 
 # 8
-s.source_files = "Button/**/*.{swift}"
+s.source_files = "DisplayText/**/*.{swift}"
 
 # 9
-# s.resources = "Button/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+# s.resources = "DisplayText/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
 # 10
 s.swift_version = "4.2"
 
 end
+
